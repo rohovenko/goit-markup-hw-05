@@ -294,6 +294,27 @@ line-height: 1.71;
 .project-flex .item + .item{
     margin-left: 30px;
 }
+.project-flex .item{
+    position: relative;
+}
+.overlay{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding-top: 24px;
+    padding-bottom: 30px;
+    background-color: rgba(47, 48, 58, 0.8);;
+}
+.overlay-text{
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+text-align: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
 
 
 
