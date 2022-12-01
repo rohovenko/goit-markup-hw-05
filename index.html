@@ -47,7 +47,7 @@
             <div class="container">
                 <div>
                     <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-                    <button type="button" class="button">Замовити послугу</button>
+                    <button type="button" class="button" data-modal-open>Замовити послугу</button>
                 </div>
             </div>
         </section>
@@ -63,7 +63,7 @@
                                     <use href="./images/icon-sprite/sprite.svg#antenna"></use>
                                 </svg>
                             </div>
-                            <h3 class="title">УВАГА ДО ДЕТАЛЕЙ</h3>
+                            <h3 class="about-title">УВАГА ДО ДЕТАЛЕЙ</h3>
                             <p class="text">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
                         </li>
                         <li class="item">
@@ -72,7 +72,7 @@
                                     <use href="./images/icon-sprite/sprite.svg#clock"></use>
                                 </svg>
                             </div>    
-                            <h3 class="title">ПУНКТУАЛЬНІСТЬ</h3>
+                            <h3 class="about-title">ПУНКТУАЛЬНІСТЬ</h3>
                             <p class="text">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
                         </li>
                         <li class="item">
@@ -81,7 +81,7 @@
                                     <use href="./images/icon-sprite/sprite.svg#diagram"></use>
                                 </svg>
                             </div>
-                            <h3 class="title">ПЛАНУВАННЯ</h3>
+                            <h3 class="about-title">ПЛАНУВАННЯ</h3>
                             <p class="text">Так само консультація з широким активом значною мірою зумовлює.</p>
                         </li>
                         <li class="item">
@@ -90,7 +90,7 @@
                                     <use href="./images/icon-sprite/sprite.svg#astronaut"></use>
                                 </svg>
                             </div>
-                            <h3 class="title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+                            <h3 class="about-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
                             <p class="text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
                         </li>
                     </ul>
@@ -544,6 +544,20 @@
 
     </div>
 </footer>
+
+<!-- Модальне вікно -->
+<div class="backdrop is-hidden" data-modal>
+<div class="modal">
+<button class="modal-btn" data-modal-close>
+    <svg class="modal-icon" width="18" height="18">
+        <use href="./images/icon-sprite/sprite.svg#close"></use>
+    </svg>
+</button>
+</div>
+</div>
+
+<script src="./js/modal.js"></script>
+
 </body>
 </html>
 
